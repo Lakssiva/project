@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Light</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .traf {
+      width: 120px;
+      height: 320px;
+      background-color: black;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .l{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: grey;
+    }
+
+    .red{
+      background-color: red;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .green{
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="traf">
+      <div class="l red"></div>
+      <div class="l yellow"></div>
+      <div class="l green"></div>
+    </div>
+  </div>
+</body>
+</html>
